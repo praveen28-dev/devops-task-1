@@ -1,8 +1,3 @@
-The README.md File
-
-Create a file named README.md in your folder and paste this content. It highlights all the bonus features you implemented.
-Markdown
-
 # DevOps Task 1: Scalable Hasura & PostgreSQL Deployment
 
 ## 🚀 Project Overview
@@ -85,4 +80,5 @@ Bonus Features Implemented ✅
     View Logs: docker-compose logs -f
 
     Check Status: docker-compose ps
+
 

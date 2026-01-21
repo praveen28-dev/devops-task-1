@@ -16,7 +16,7 @@ The setup is designed to be:
 * **OS:** Ubuntu Linux
 
 ## ⚙️ Setup Instructions
-
+```
 ### 1. Clone the Repository
 
 git clone [<YOUR_REPO_URL>](https://github.com/praveen28-dev/devops-task-1.git)
@@ -26,7 +26,7 @@ cd devops-task-1
 2. Configure Secrets
 
 Copy the example environment file to create your local secrets configuration:
-Bash
+```Bash
 
 cp .env.example .env
 
@@ -80,5 +80,6 @@ Bonus Features Implemented ✅
     View Logs: docker-compose logs -f
 
     Check Status: docker-compose ps
+
 
 

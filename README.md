@@ -23,11 +23,12 @@ The setup is designed to be:
 ## ⚙️ Setup Instructions
 
 ### 1. Clone the Repository
-```bash
-git clone <YOUR_REPO_URL>
+
+git clone [<YOUR_REPO_URL>](https://github.com/praveen28-dev/devops-task-1.git)
 cd devops-task-1
 
-###2. Configure Secrets
+
+2. Configure Secrets
 
 Copy the example environment file to create your local secrets configuration:
 Bash
@@ -36,7 +37,7 @@ cp .env.example .env
 
 Modify .env and set a strong HASURA_GRAPHQL_ADMIN_SECRET.
 
-###3. Start the Application
+3. Start the Application
 
 Run the stack in detached mode:
 Bash
@@ -84,3 +85,4 @@ Bonus Features Implemented ✅
     View Logs: docker-compose logs -f
 
     Check Status: docker-compose ps
+
